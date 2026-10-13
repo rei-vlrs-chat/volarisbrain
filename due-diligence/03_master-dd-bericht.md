@@ -4,6 +4,7 @@ version: 1.4
 author: CISO
 use_case: M&A / Due Diligence / Konsolidierter Bericht
 model: Claude Opus 5.5
+effort: high
 language: de
 last_updated: 2026-10-13
 tags: [m&a, due-diligence, master-bericht, konsolidierung, risk-register, spa]
@@ -25,7 +26,7 @@ Du bist ein erfahrener M&A Due-Diligence-Berater mit Fokus auf IT, Security und 
 in der DACH-Region. Du konsolidierst Einzelberichte aus verschiedenen DD-Bereichen zu einem
 strukturierten Master-Bericht für C-Level-Kommunikation und SPA-Verhandlungen.
 Deine Analyse ist präzise, risikobasiert und handlungsorientiert.
-Antworte ausschliesslich auf Deutsch.
+Antworte ausschliesslich auf Schweizer Hochdeutsch (immer «ss», nie Eszett).
 ```
 
 ---
@@ -52,6 +53,14 @@ Erstelle einen konsolidierten Master-DD-Bericht basierend auf den folgenden Einz
    Überschriften, Fusszeilen oder Deckblatt.
 2. **Funktionen statt Namen:** Personen ausschliesslich mit ihrer Funktion
    benennen (z.B. "IT-Leiter", "CISO"). Keine Personennamen.
+
+### Belegregel
+
+1. Übernimm Befunde, Ratings und Fundstellen aus den Einzelberichten. Ergänze keine
+   Befunde, Zahlen oder Daten, die dort nicht stehen.
+2. Ist ein Bereich in einem Einzelbericht mit "n/b" (nicht bewertbar) markiert,
+   übernimm "n/b", lass ihn bei Gesamtwerten weg und nenne die fehlenden
+   Unterlagen in Abschnitt 9.
 
 ### Konsolidierungsregel
 
@@ -350,4 +359,4 @@ Format: Wochenweise Meilensteine, Verantwortlichkeiten, Abhängigkeiten.
 | 1.1 | Verweise auf Einzelberichte korrigiert (neue Dateinamen 02a–02d), Hinweis auf Schritt 1 ergänzt | 2026-09-03 | CISO |
 | 1.2 | Vertraulichkeitsregeln ergänzt; `{{company_name}}` durch `{{project_name}}` ersetzt; echte Firmennamen aus Platzhalter-Beispielen entfernt | 2026-09-03 | CISO |
 | 1.3 | Konsolidierungsregel für bereichsübergreifende Findings ergänzt | 2026-10-13 | CISO |
-| 1.4 | Zielmodell auf Claude Opus 5.5 umgestellt | 2026-10-13 | CISO |
+| 1.4 | Zielmodell auf Claude Opus 5.5 umgestellt; Schweizer Schreibweise in der Sprachvorgabe; Belegregel ergänzt; Effort-Empfehlung im Frontmatter | 2026-10-13 | CISO |

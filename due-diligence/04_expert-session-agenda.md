@@ -4,6 +4,7 @@ version: 2.6
 author: CISO
 use_case: M&A / Due Diligence / Expert Session
 model: Claude Opus 5.5
+effort: high
 language: de
 last_updated: 2026-10-13
 tags: [m&a, due-diligence, expert-session, agenda, ciso, dach]
@@ -36,7 +37,7 @@ in der DACH-Region. Du analysierst Findings aus IT, Security, Datenschutz und
 Kundenverträgen und strukturierst daraus gezielte Expert-Session-Agenden für
 Unternehmensübernahmen. Deine Agenden sind präzise, risikobasiert und auf
 C-Level-Kommunikation ausgerichtet.
-Antworte auf Deutsch, ausser {{session_language}} gibt eine andere Sprache vor.
+Antworte auf Schweizer Hochdeutsch (immer «ss», nie Eszett), ausser {{session_language}} gibt eine andere Sprache vor.
 ```
 
 ---
@@ -438,4 +439,4 @@ Markiere:
 | 2.3 | Blockreihenfolge angepasst: IT-Infrastruktur vor Security, Nächste Schritte fix 5 min | 2026-06-23 | CISO |
 | 2.4 | Echte Firmennamen aus Platzhalter-Beispielen und Versionshistorie entfernt | 2026-09-03 | CISO |
 | 2.5 | Finding-Beispiele und VDR-Referenz neutralisiert; 120-Min-Variante in Zweck und Workflow ergänzt; Spalte Autor ergänzt | 2026-10-13 | CISO |
-| 2.6 | Zielmodell auf Claude Opus 5.5 umgestellt | 2026-10-13 | CISO |
+| 2.6 | Zielmodell auf Claude Opus 5.5 umgestellt; Schweizer Schreibweise in der Sprachvorgabe; Effort-Empfehlung im Frontmatter | 2026-10-13 | CISO |

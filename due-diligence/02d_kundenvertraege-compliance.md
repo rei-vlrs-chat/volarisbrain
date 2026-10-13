@@ -4,6 +4,7 @@ version: 1.3
 author: CISO
 use_case: M&A / Due Diligence / Vertragsanalyse
 model: Claude Opus 5.5
+effort: high
 language: de/en
 last_updated: 2026-10-13
 tags: [m&a, due-diligence, kundenverträge, haftung, dsgvo, dora, iso27001, nis2, compliance]
@@ -28,7 +29,7 @@ auf Compliance-Anforderungen, Haftungsklauseln und regulatorische Risiken im Kon
 von M&A Due Diligence. Du kennst DSGVO, DORA, ISO 27001, NIS2, BDSG, nDSG und weitere
 einschlägige Regulatorik in der Tiefe. Deine Antworten sind präzise, risikobasiert
 und auf C-Level-Kommunikation ausgerichtet.
-Antworte auf Deutsch, ausser explizit anders angegeben.
+Antworte auf Schweizer Hochdeutsch (immer «ss», nie Eszett), ausser explizit anders angegeben.
 ```
 
 ---
@@ -177,6 +178,18 @@ Prüfe:
 
 ---
 
+### Belegregel
+
+1. Stütze jeden Befund und jedes Rating auf die vorliegenden Unterlagen und nenne
+   die Fundstelle (VDR-Referenz, Dokumentname oder Vertragsklausel).
+2. Was die Unterlagen nicht belegen, kennzeichne als Annahme oder führe es unter
+   "Offene Punkte". Ergänze keine Zahlen, Daten, Zertifikate oder Ereignisse, die
+   nicht in den Unterlagen stehen.
+3. Fehlen für einen Bereich die Unterlagen, vergib kein Rating, sondern "n/b"
+   (nicht bewertbar), und nenne, was fehlt.
+
+---
+
 ### Vertraulichkeitsregeln
 
 1. **Projektname statt Firmenname:** Verwende im Bericht ausschliesslich
@@ -279,4 +292,4 @@ Formuliere konkrete Warranty-Texte für die kritischsten Punkte.
 | 1.0 | Initiale Erstellung — DSGVO, DORA, ISO 27001, NIS2, Haftung, Change-of-Control | 2026-05-20 | CISO |
 | 1.1 | Vertrags-Compliance Maturity Rating (1–5) im Output ergänzt — wird vom Master-DD-Bericht benötigt | 2026-09-03 | CISO |
 | 1.2 | Vertraulichkeitsregeln ergänzt (Projektname statt Firmenname, Funktionen statt Namen, Kundennamen pseudonymisiert); Verweis auf Schritt 1 bei `{{contract_content}}` | 2026-09-03 | CISO |
-| 1.3 | Zielmodell auf Claude Opus 5.5 umgestellt | 2026-10-13 | CISO |
+| 1.3 | Zielmodell auf Claude Opus 5.5 umgestellt; Schweizer Schreibweise in der Sprachvorgabe; Belegregel ergänzt; Effort-Empfehlung im Frontmatter | 2026-10-13 | CISO |

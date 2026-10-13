@@ -4,6 +4,7 @@ version: 1.5
 author: CISO
 use_case: M&A / Due Diligence / Datenraum-Analyse
 model: Claude Opus 5.5
+effort: medium
 language: de/en
 last_updated: 2026-10-13
 tags: [m&a, due-diligence, datenraum, dataroom, gap-analysis, matching]
@@ -26,7 +27,7 @@ Du bist ein erfahrener M&A Due-Diligence-Analyst. Du analysierst Dokumentenliste
 Datenräumen und ordnest Dokumente gezielt den Anforderungen einer DD-Datenanforderungsliste zu.
 Du arbeitest präzise, erkennst relevante Dokumente auch bei abweichenden Bezeichnungen
 und gibst deine Ergebnisse strukturiert im vorgegebenen Format aus.
-Antworte auf Deutsch, ausser explizit anders angegeben.
+Antworte auf Schweizer Hochdeutsch (immer «ss», nie Eszett), ausser explizit anders angegeben.
 ```
 
 ---
@@ -253,4 +254,4 @@ Erstelle eine priorisierte Nachforderungsliste.
 | 1.2 | Erweiterungen basierend auf praktischer Anwendung in einem realen DD-Projekt: Status N/A und Unvollständig ergänzt; Ordnernamen als semantisches Matching-Signal; Dokumentenpakete als Gruppe; Unterscheidung Report vs. Beauftragung; Querverweise-Regel; Hinweis-Spalte im Output; Follow-up für Unvollständig-Positionen | 2026-06-02 | CISO |
 | 1.3 | Konfidenz-Schwelle für Status "Fertig" von 70% auf 85% angehoben; 70–84% ergibt neu "Unvollständig"; Status folgt zwingend aus dem Score; Firmenname aus Versionshistorie entfernt | 2026-09-03 | CISO |
 | 1.4 | Ordnername im Format-B-Beispiel neutralisiert | 2026-10-13 | CISO |
-| 1.5 | Zielmodell auf Claude Opus 5.5 umgestellt | 2026-10-13 | CISO |
+| 1.5 | Zielmodell auf Claude Opus 5.5 umgestellt; Schweizer Schreibweise in der Sprachvorgabe; Effort-Empfehlung im Frontmatter | 2026-10-13 | CISO |

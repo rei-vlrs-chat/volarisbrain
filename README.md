@@ -20,6 +20,10 @@ Vorlagen mit Platzhaltern (`{{...}}`) für einen DD-Workflow in vier Schritten:
 
 Die Maturity Ratings aus Schritt 2 fliessen in die Maturity-Übersicht des Master-Berichts.
 
+Zielmodell ist Claude Opus 5.5. Das Feld `effort` im Frontmatter jeder Vorlage ist die
+empfohlene Effort-Stufe bei API-Nutzung (`output_config.effort`); ohne Angabe arbeitet
+Opus 5.5 mit `medium`.
+
 ## Hinweise
 
 - GitHub-Konto: `rei-vlrs-chat`
