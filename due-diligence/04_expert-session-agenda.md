@@ -1,9 +1,9 @@
 ---
 title: "M&A Expert Session — Agenda-Erstellung"
-version: 2.5
+version: 2.6
 author: CISO
 use_case: M&A / Due Diligence / Expert Session
-model: Claude Sonnet
+model: Claude Opus 5.5
 language: de
 last_updated: 2026-10-13
 tags: [m&a, due-diligence, expert-session, agenda, ciso, dach]
@@ -438,3 +438,4 @@ Markiere:
 | 2.3 | Blockreihenfolge angepasst: IT-Infrastruktur vor Security, Nächste Schritte fix 5 min | 2026-06-23 | CISO |
 | 2.4 | Echte Firmennamen aus Platzhalter-Beispielen und Versionshistorie entfernt | 2026-09-03 | CISO |
 | 2.5 | Finding-Beispiele und VDR-Referenz neutralisiert; 120-Min-Variante in Zweck und Workflow ergänzt; Spalte Autor ergänzt | 2026-10-13 | CISO |
+| 2.6 | Zielmodell auf Claude Opus 5.5 umgestellt | 2026-10-13 | CISO |

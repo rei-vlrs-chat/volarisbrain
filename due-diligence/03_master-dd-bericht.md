@@ -1,9 +1,9 @@
 ---
 title: "M&A Master DD Bericht"
-version: 1.3
+version: 1.4
 author: CISO
 use_case: M&A / Due Diligence / Konsolidierter Bericht
-model: Claude Sonnet
+model: Claude Opus 5.5
 language: de
 last_updated: 2026-10-13
 tags: [m&a, due-diligence, master-bericht, konsolidierung, risk-register, spa]
@@ -304,7 +304,7 @@ Voraussetzung: Der Datenraum wurde vorgängig mit `01_datenraum-matching.md` auf
 Füge die vier Berichte in die entsprechenden `{{platzhalter}}` ein.
 
 ### Schritt 3 — Master-Bericht generieren
-Übergib den vollständigen Prompt an Claude Sonnet.
+Übergib den vollständigen Prompt an Claude Opus 5.5.
 
 ### Schritt 4 — Bericht verwenden
 Der Output kann direkt als:
@@ -350,3 +350,4 @@ Format: Wochenweise Meilensteine, Verantwortlichkeiten, Abhängigkeiten.
 | 1.1 | Verweise auf Einzelberichte korrigiert (neue Dateinamen 02a–02d), Hinweis auf Schritt 1 ergänzt | 2026-09-03 | CISO |
 | 1.2 | Vertraulichkeitsregeln ergänzt; `{{company_name}}` durch `{{project_name}}` ersetzt; echte Firmennamen aus Platzhalter-Beispielen entfernt | 2026-09-03 | CISO |
 | 1.3 | Konsolidierungsregel für bereichsübergreifende Findings ergänzt | 2026-10-13 | CISO |
+| 1.4 | Zielmodell auf Claude Opus 5.5 umgestellt | 2026-10-13 | CISO |

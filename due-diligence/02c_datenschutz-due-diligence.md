@@ -1,9 +1,9 @@
 ---
 title: "M&A Datenschutz Due Diligence"
-version: 2.3
+version: 2.4
 author: CISO
 use_case: M&A / Due Diligence
-model: Claude Sonnet
+model: Claude Opus 5.5
 language: de/en
 last_updated: 2026-10-13
 tags: [m&a, due-diligence, datenschutz, dsgvo, ndsg, dach]
@@ -239,3 +239,4 @@ Berücksichtige: Ressourcen, regulatorische Fristen und Integrationsaufwand.
 | 2.1 | Datenschutz Maturity Rating (1–5) im Output ergänzt — wird vom Master-DD-Bericht benötigt | 2026-09-03 | CISO |
 | 2.2 | Vertraulichkeitsregeln ergänzt (Projektname statt Firmenname, Funktionen statt Namen — auch für den DSB); Verweis auf Schritt 1 bei `{{available_docs}}` | 2026-09-03 | CISO |
 | 2.3 | PCI-DSS an Security-DD (02b) abgegeben | 2026-10-13 | CISO |
+| 2.4 | Zielmodell auf Claude Opus 5.5 umgestellt | 2026-10-13 | CISO |

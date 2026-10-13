@@ -1,9 +1,9 @@
 ---
 title: "M&A DD Datenraum-Matching"
-version: 1.4
+version: 1.5
 author: CISO
 use_case: M&A / Due Diligence / Datenraum-Analyse
-model: Claude Sonnet
+model: Claude Opus 5.5
 language: de/en
 last_updated: 2026-10-13
 tags: [m&a, due-diligence, datenraum, dataroom, gap-analysis, matching]
@@ -182,7 +182,7 @@ Kopiere die relevanten Zeilen aus dem Excel (Spalten: Ref, Sub, Item EN, Item DE
 und füge sie in `{{dd_requirements}}` ein.
 
 ### Schritt 3 — Prompt ausführen
-Übergib den vollständigen Prompt an Claude Sonnet.
+Übergib den vollständigen Prompt an Claude Opus 5.5.
 
 ### Schritt 4 — Ergebnis ins Excel übernehmen
 Kopiere die Einträge direkt in die Spalte "Matching Dataroom Document(s)" der
@@ -253,3 +253,4 @@ Erstelle eine priorisierte Nachforderungsliste.
 | 1.2 | Erweiterungen basierend auf praktischer Anwendung in einem realen DD-Projekt: Status N/A und Unvollständig ergänzt; Ordnernamen als semantisches Matching-Signal; Dokumentenpakete als Gruppe; Unterscheidung Report vs. Beauftragung; Querverweise-Regel; Hinweis-Spalte im Output; Follow-up für Unvollständig-Positionen | 2026-06-02 | CISO |
 | 1.3 | Konfidenz-Schwelle für Status "Fertig" von 70% auf 85% angehoben; 70–84% ergibt neu "Unvollständig"; Status folgt zwingend aus dem Score; Firmenname aus Versionshistorie entfernt | 2026-09-03 | CISO |
 | 1.4 | Ordnername im Format-B-Beispiel neutralisiert | 2026-10-13 | CISO |
+| 1.5 | Zielmodell auf Claude Opus 5.5 umgestellt | 2026-10-13 | CISO |

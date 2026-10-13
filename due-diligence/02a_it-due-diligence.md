@@ -1,11 +1,11 @@
 ---
 title: "M&A IT Due Diligence"
-version: 2.3
+version: 2.4
 author: CISO
 use_case: M&A / Due Diligence
-model: Claude Sonnet
+model: Claude Opus 5.5
 language: de/en
-last_updated: 2026-09-03
+last_updated: 2026-10-13
 tags: [m&a, due-diligence, it-infrastruktur, ciso, dach]
 ---
 
@@ -219,3 +219,4 @@ und Quick Wins. Berücksichtige Tag-1-Readiness und Ressourcenverfügbarkeit.
 | 2.1 | Section 10 (Produkt, R&D, Tech Debt, IT Costs) entfernt — nur Section 9 relevant | 2026-05-20 | CISO |
 | 2.2 | IT Maturity Rating (1–5) im Output ergänzt — wird vom Master-DD-Bericht benötigt | 2026-09-03 | CISO |
 | 2.3 | Vertraulichkeitsregeln ergänzt (Projektname statt Firmenname, Funktionen statt Namen); `{{regulatory_requirements}}` im Template aktiviert; Verweis auf Schritt 1 bei `{{available_docs}}` | 2026-09-03 | CISO |
+| 2.4 | Zielmodell auf Claude Opus 5.5 umgestellt | 2026-10-13 | CISO |

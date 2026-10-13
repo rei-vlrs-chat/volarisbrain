@@ -1,11 +1,11 @@
 ---
 title: "M&A Kundenverträge — Compliance & Haftungsprüfung"
-version: 1.2
+version: 1.3
 author: CISO
 use_case: M&A / Due Diligence / Vertragsanalyse
-model: Claude Sonnet
+model: Claude Opus 5.5
 language: de/en
-last_updated: 2026-09-03
+last_updated: 2026-10-13
 tags: [m&a, due-diligence, kundenverträge, haftung, dsgvo, dora, iso27001, nis2, compliance]
 ---
 
@@ -279,3 +279,4 @@ Formuliere konkrete Warranty-Texte für die kritischsten Punkte.
 | 1.0 | Initiale Erstellung — DSGVO, DORA, ISO 27001, NIS2, Haftung, Change-of-Control | 2026-05-20 | CISO |
 | 1.1 | Vertrags-Compliance Maturity Rating (1–5) im Output ergänzt — wird vom Master-DD-Bericht benötigt | 2026-09-03 | CISO |
 | 1.2 | Vertraulichkeitsregeln ergänzt (Projektname statt Firmenname, Funktionen statt Namen, Kundennamen pseudonymisiert); Verweis auf Schritt 1 bei `{{contract_content}}` | 2026-09-03 | CISO |
+| 1.3 | Zielmodell auf Claude Opus 5.5 umgestellt | 2026-10-13 | CISO |
